@@ -1,0 +1,41 @@
+{
+  "task_info":{
+    "label_type": "multi_class",
+    "AL": true
+  },
+  "model_name": "Bert",
+  "device": "cuda:0",
+  "al_device": "cuda:0",
+  "llm_device": "cuda:0",
+  "checkpoint_dir": "checkpoint",
+  "model_dir": "trained_model",
+  "train_info_dir": "trainINFO",
+  "data":{
+    "num_worker": 0
+
+  },
+  "feature": {
+    "max_token_len": 128
+  },
+  "train": {
+    "batch_size": 50,
+    "early_stop": 80,
+    "loss_type": "BCEWithLogitsLoss"
+  },
+  "optimizer": {
+    "optimizer_type": "AdamW",
+    "learning_rate": 5e-5,
+    "adadelta_decay_rate": 0.95,
+    "adadelta_epsilon": 1e-08,
+    "warmup_percentage": 0.1
+  },
+  "eval": {
+    "threshold": 0.5,
+    "dir": "probs",
+    "batch_size": 50
+  },
+  "log": {
+    "logger_file_dir": "log",
+    "log_level": "info"
+  }
+}
