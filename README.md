@@ -5,12 +5,13 @@
 ---
 
 ## 🚀 Overview
-This repository contains the official implementation accompanying our AAAI 2026 paper. It proposes MoLLIA, an active 
-learning framework that leverages a small panel of instruction-tuned LLMs as noisy annotators and learns a meta-model 
-(MoLAM) to fuse their signals into reliable soft labels for downstream text classification.
+This repository contains the official implementation accompanying our AAAI 2026 paper. It proposes MoLLIA, an active learning framework that leverages a small panel of instruction-tuned LLMs as noisy annotators and learns a meta-model (MoLAM) to fuse their signals into reliable soft labels for downstream text classification.
+
+Appendix: Supplementary materials are available in the repository’s appendix folder: [Appx/](Appx/).
+
 
 <p align="center">
-  <img src=".image/MoLLIA.png" alt="Model Architecture" width="720">
+  <img src=".image/MoLLIA.png" alt="Model Architecture" width="500">
 </p>
 
 *Figure 1: An overview of the proposed MoLLIA architecture.*
