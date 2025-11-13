@@ -9,7 +9,9 @@ This repository contains the official implementation accompanying our AAAI 2026 
 learning framework that leverages a small panel of instruction-tuned LLMs as noisy annotators and learns a meta-model 
 (MoLAM) to fuse their signals into reliable soft labels for downstream text classification.
 
-![Model Architecture](.image/MoLLIA.png)
+<p align="center">
+  <img src=".image/MoLLIA.png" alt="Model Architecture" width="720">
+</p>
 
 *Figure 1: An overview of the proposed MoLLIA architecture.*
 
